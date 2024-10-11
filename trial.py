@@ -12,3 +12,4 @@ b=5
 a,b=b,a
 print(a)
 print(b)
+c=15
