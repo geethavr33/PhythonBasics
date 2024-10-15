@@ -9,8 +9,5 @@ class StringReverser:
 
 
 reverser = StringReverser("the sky is blue ")
-reverser1 = StringReverser("the sky is blue in color ")
 reversed_string = reverser.reverse_words()
-reversed_string1 = reverser1.reverse_words()
 print(reversed_string)
-print(reversed_string1)

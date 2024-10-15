@@ -20,7 +20,7 @@ def maxProfit(prices):
     return max_profit, buy_day, sell_day
 
 # Example usage
-prices = [7, 4, 4, 5, 4, 7]
+prices = [7, 4, 4, 5, 4, 6]
 profit, buy_day, sell_day = maxProfit(prices)
 
 if profit > 0:

@@ -12,7 +12,6 @@ def remove_excess_duplicates(nums):
     
     return i 
 
-
 nums = [1, 1, 1, 2, 2, 3,3,3]
 k = remove_excess_duplicates(nums)
 
