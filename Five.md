@@ -21,7 +21,7 @@ if num < 0:
 else:
     print(f"The factorial of {num} is {factorial(num)}")
 ```
-## Explanation:
+### Explanation:
 * The factorial function is a recursive function that computes the factorial of n.
 * The base case is when n is 0 or 1, where the factorial is 1 (because 0! = 1! = 1).
 * The recursive case is n * factorial(n - 1), which breaks the problem into smaller subproblems until it reaches the base case.
@@ -66,7 +66,7 @@ if num <= 0:
 else:
     print(f"The Roman numeral of {num} is {int_to_roman(num)}")
 ```
-## Explanation of Key Points in the Code:
+### Explanation of Key Points in the Code:
 ### 1.Subtractive Forms for 4 and 9:
 
 * In Roman numerals, 4 is represented as IV (1 less than 5), and 9 is represented as IX (1 less than 10). These rules are also applied for other decimal place values like 40 (XL), 90 (XC), 400 (CD), and 900 (CM).
@@ -164,7 +164,7 @@ k = remove_excess_duplicates(nums)
 print(f"Number of valid elements: {k}")
 print(f"Modified array: {nums}")
 ```
-## Explanation of the Changes:
+### Explanation of the Changes:
 1. Valid Elements (i): The i pointer tracks the next valid position where an element should be placed. It starts from 2 because the first two elements can always be kept.
 
 2. Removing Duplicates: As the function iterates through the array, if the current element nums[j] is not the same as nums[i-2], it means it can be placed in the i-th position.
